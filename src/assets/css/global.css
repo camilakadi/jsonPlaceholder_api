@@ -1,0 +1,48 @@
+:root {
+    --dark-blue: #003959;
+    --white: #fff;
+    --light-pink: #fde3d7;
+    --light-gray: #ced5da;
+}
+
+body {
+    font: 1.125rem 'Ubuntu', sans-serif;
+}
+
+body, select, input, textarea {
+    color: #333;
+}
+
+a {
+    color: #03f;
+}
+
+a:hover {
+    color: #69f;
+}
+
+ins {
+    background-color: #fcd700;
+    color: #000;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #fcd700;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input:-moz-placeholder {
+    color: #a9a9a9;
+}
+
+textarea:-moz-placeholder {
+    color: #a9a9a9;
+}
+
+blockquote {
+    padding: 1rem;
+    background: #eee;
+}

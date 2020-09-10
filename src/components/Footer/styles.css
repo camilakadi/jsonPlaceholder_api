@@ -1,0 +1,9 @@
+footer {
+    background-color: var(--dark-blue);
+}
+
+footer .MuiContainer-root {
+    text-align: center;
+    min-height: 40px;
+    color: var(--white);
+}

@@ -1,0 +1,27 @@
+header {
+    background-color: var(--light-pink);
+    box-shadow: 1px 1px 5px var(--light-gray);
+}
+
+.top-container {
+    padding-bottom: 15px;
+}
+
+.logo {
+    color: var(--dark-blue);
+    font-size: 25px;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .searchs__form {
+        width: 100%;
+    }
+
+    .searchs__input {
+        width: inherit;
+    }
+}

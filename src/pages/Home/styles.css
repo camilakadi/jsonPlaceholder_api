@@ -1,0 +1,56 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+.searchs__form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 15px;
+}
+
+.MuiInputBase-root {
+    color: var(--dark-blue) !important;
+}
+
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 2px solid var(--dark-blue) !important;
+}
+
+tr.MuiTableRow-root td.MuiTableCell-root:first-child {
+    padding: 0px 5px !important;
+}
+
+main {
+    align-items: stretch;
+    flex: 1 1 auto;
+    position: relative;
+    background-color: #fbfbfb;
+}
+
+.content {
+    margin: 35px 0;
+}
+
+table {
+    min-width: 900px;
+}
+
+.btn-delete {
+    visibility: hidden;
+}
+
+table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.2s ease;
+}
+
+table tbody tr:hover .btn-delete {
+    visibility: visible;
+}
