@@ -1,0 +1,21 @@
+.form-control-add {
+    width: 100%;
+    margin-top: 20px !important;
+}
+
+.container-inside {
+    margin: 35px 0;
+    padding: 0 20px 20px 20px;
+}
+
+.buttons-inside {
+    margin-top: 25px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+
+.buttons-inside .btn-salve:first-child {
+    margin-right: 20px;
+}
+

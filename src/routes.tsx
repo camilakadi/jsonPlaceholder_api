@@ -1,16 +1,20 @@
-import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom'
-import Home from './pages/Home';
-import Editar from './pages/Editar';
+import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Register from "./pages/Register";
 
-function Routes() {
-    return (
-        <BrowserRouter>
-            <Route path="/" exact component={Home} />
-            <Route path="/editar/:id" component={Editar} />
-            <Route path="/adicionar" component={Editar} />
-        </BrowserRouter>
-    )
+interface RoutesProps {
+	toast: Function;
 }
+
+const Routes: React.FC<RoutesProps> = ({ toast }) => {
+	return (
+		<BrowserRouter>
+			<Route path="/" exact render={(props) => <Home {...props} toast={toast} />} />
+			<Route path="/editar/:id" render={(props) => <Register {...props} toast={toast} />} />
+			<Route path="/adicionar" render={(props) => <Register {...props} toast={toast} />} />
+		</BrowserRouter>
+	);
+};
 
 export default Routes;

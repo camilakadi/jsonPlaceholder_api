@@ -54,3 +54,7 @@ table tbody tr:hover {
 table tbody tr:hover .btn-delete {
     visibility: visible;
 }
+
+tr.MuiTableRow-root td.MuiTableCell-root.empty-line:first-child {
+    padding: 16px !important;
+}

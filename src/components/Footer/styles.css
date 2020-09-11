@@ -1,9 +1,66 @@
 footer {
-    background-color: var(--dark-blue);
+    background-color: #dcdcdc;
+    color: #000;
+    font-size: 14px;
+}
+
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #000;
 }
 
 footer .MuiContainer-root {
-    text-align: center;
-    min-height: 40px;
-    color: var(--white);
+    min-height: 80px;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: var(--dark-blue);
+}
+
+footer ul li {
+    margin-bottom: 7px
+}
+
+.box-pages ul {
+    padding-left: 25px;
+}
+
+.box-contacts ul {
+    list-style: none;
+}
+
+.box-contacts ul li {
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+footer svg {
+    margin-right: 10px;
+    color: var(--dark-blue)
+}
+
+.address-group {
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+.address-group address {
+    font-style: normal;
+}
+
+.address-group svg {
+    margin-right: 10px;
 }

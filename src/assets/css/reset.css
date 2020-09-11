@@ -32,10 +32,6 @@ html {
 	overflow-y: scroll;
 }
 
-ul {
-	list-style: none;
-}
-
 blockquote, q {
 	quotes: none;
 }
